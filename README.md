@@ -1,0 +1,5 @@
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
+The data was gotten from kaggle at https://www.kaggle.com/mlg-ulb/creditcardfraud/version/3
+The datasets contains transactions made by credit cards in September 2013 by european cardholders. It contains only numerical input variables which are the result of a PCA transformation.
+The data set has 31 features, 28 of which have been anonymized and are labeled V1 through V28. The remaining three features are the time and the amount of the transaction as well as whether that transaction was fraudulent or not. Before it was uploaded to Kaggle, the anonymized variables had been modified in the form of a PCA (Principal Component Analysis). There were also no missing values in the data set.
+Fraud detection is a complex issue that requires a substantial amount of planning before throwing machine learning algorithms at it. Further work on this will include: handling the imbalanced class, dimensionality reduction, more data processing and testing with other ML algorithms.
